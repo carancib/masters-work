@@ -1,0 +1,114 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+2019-03-05 17:49:22 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-05 17:50:02 INFO  SparkContext:54 - Running Spark version 2.3.2
+2019-03-05 17:50:02 INFO  SparkContext:54 - Submitted application: COM6012 Assignment 1 Q1
+2019-03-05 17:50:03 INFO  SecurityManager:54 - Changing view acls to: acp18ca
+2019-03-05 17:50:03 INFO  SecurityManager:54 - Changing modify acls to: acp18ca
+2019-03-05 17:50:03 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-05 17:50:03 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-05 17:50:03 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acp18ca); groups with view permissions: Set(); users  with modify permissions: Set(acp18ca); groups with modify permissions: Set()
+2019-03-05 17:50:04 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 43621.
+2019-03-05 17:50:04 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-05 17:50:04 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-05 17:50:04 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-05 17:50:04 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-05 17:50:04 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-ed6966d3-7a87-4d1d-a435-2851852d2c39
+2019-03-05 17:50:04 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2019-03-05 17:50:04 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-05 17:50:05 INFO  log:192 - Logging initialized @51573ms
+2019-03-05 17:50:05 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-03-05 17:50:05 INFO  Server:419 - Started @51690ms
+2019-03-05 17:50:05 INFO  AbstractConnector:278 - Started ServerConnector@608155a2{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-05 17:50:05 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@55401318{/jobs,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@400f8b3e{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2b124a18{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@24cd063d{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@18a73fe1{/stages,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@215ce467{/stages/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40af03f8{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6bdfc16c{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5357af2c{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27750a91{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3936fcbb{/storage,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2cf79e50{/storage/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@42b76a2d{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d99d168{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@43443f44{/environment,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@53513c62{/environment/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2acec227{/executors,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@29df5487{/executors/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4b83e0e7{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@116b77d9{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d685029{/static,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5c72f433{/,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5321bcf0{/api,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@18039eb6{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bacd72d{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-05 17:50:05 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node050.shef.ac.uk:4040
+2019-03-05 17:50:05 INFO  SparkContext:54 - Added file file:/home/acp18ca/lab1/Code/Q1.py at file:/home/acp18ca/lab1/Code/Q1.py with timestamp 1551808205955
+2019-03-05 17:50:05 INFO  Utils:54 - Copying /home/acp18ca/lab1/Code/Q1.py to /tmp/spark-29a3fcc5-4180-49c7-9dd7-ecbd9d9b8f57/userFiles-21cd2978-82d6-4374-b8d2-91f73a93b3df/Q1.py
+2019-03-05 17:50:06 INFO  Executor:54 - Starting executor ID driver on host localhost
+2019-03-05 17:50:06 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46471.
+2019-03-05 17:50:06 INFO  NettyBlockTransferService:54 - Server created on sharc-node050.shef.ac.uk:46471
+2019-03-05 17:50:06 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-05 17:50:06 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node050.shef.ac.uk, 46471, None)
+2019-03-05 17:50:06 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node050.shef.ac.uk:46471 with 366.3 MB RAM, BlockManagerId(driver, sharc-node050.shef.ac.uk, 46471, None)
+2019-03-05 17:50:06 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node050.shef.ac.uk, 46471, None)
+2019-03-05 17:50:06 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node050.shef.ac.uk, 46471, None)
+2019-03-05 17:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5cb03628{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:07 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acp18ca/lab1/spark-warehouse/').
+2019-03-05 17:50:07 INFO  SharedState:54 - Warehouse path is 'file:/home/acp18ca/lab1/spark-warehouse/'.
+2019-03-05 17:50:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@58ecc93a{/SQL,null,AVAILABLE,@Spark}
+2019-03-05 17:50:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c3eaac3{/SQL/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@74554cbe{/SQL/execution,null,AVAILABLE,@Spark}
+2019-03-05 17:50:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@48bc79bf{/SQL/execution/json,null,AVAILABLE,@Spark}
+2019-03-05 17:50:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1e7c223e{/static/sql,null,AVAILABLE,@Spark}
+2019-03-05 17:50:08 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
++--------------------+------+------------+----------------------------+-------------------+
+|host                |status|content size|timestamp                   |path_              |
++--------------------+------+------------+----------------------------+-------------------+
+|199.72.81.55        |200   |6245        |[01/Jul/1995:00:00:01 -0400]|/history/apollo/   |
+|unicomp6.unicomp.net|200   |3985        |[01/Jul/1995:00:00:06 -0400]|/shuttle/countdown/|
++--------------------+------+------------+----------------------------+-------------------+
+only showing top 2 rows
+
++---+------+------+--------+
+|dia|amount|number|     avg|
++---+------+------+--------+
+|Sun|173776|     4| 43444.0|
+|Mon|297801|     4|74450.25|
+|Thu|368009|     4|92002.25|
+|Sat|177821|     4|44455.25|
+|Wed|312593|     4|78148.25|
+|Tue|280657|     4|70164.25|
+|Fri|281057|     4|70264.25|
++---+------+------+--------+
+
++---------------------------------------------------+------+
+|path_                                              |amount|
++---------------------------------------------------+------+
+|/images/NASA-logosmall.gif                         |111388|
+|/images/KSC-logosmall.gif                          |89639 |
+|/images/MOSAIC-logosmall.gif                       |60468 |
+|/images/USA-logosmall.gif                          |60014 |
+|/images/WORLD-logosmall.gif                        |59489 |
+|/images/ksclogo-medium.gif                         |58802 |
+|/images/launch-logo.gif                            |40871 |
+|/images/ksclogosmall.gif                           |33585 |
+|/history/apollo/images/apollo-logo1.gif            |31072 |
+|/shuttle/countdown/count.gif                       |22216 |
+|/shuttle/countdown/count70.gif                     |20957 |
+|/images/launchmedium.gif                           |20812 |
+|/shuttle/missions/sts-71/sts-71-patch-small.gif    |19853 |
+|/shuttle/missions/sts-70/sts-70-patch-small.gif    |18159 |
+|/history/apollo/images/footprint-logo.gif          |16175 |
+|/history/apollo/images/footprint-small.gif         |13920 |
+|/history/apollo/apollo-13/apollo-13-patch-small.gif|13014 |
+|/shuttle/countdown/video/livevideo.gif             |10150 |
+|/history/apollo/images/apollo-small.gif            |10095 |
+|/shuttle/countdown/video/livevideo2.gif            |9827  |
++---------------------------------------------------+------+
+only showing top 20 rows
+

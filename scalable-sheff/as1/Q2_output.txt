@@ -1,0 +1,287 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+2019-03-05 18:08:18 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-05 18:08:27 INFO  SparkContext:54 - Running Spark version 2.3.2
+2019-03-05 18:08:28 INFO  SparkContext:54 - Submitted application: COM6012 Assignment 1 Q2
+2019-03-05 18:08:28 INFO  SecurityManager:54 - Changing view acls to: acp18ca
+2019-03-05 18:08:28 INFO  SecurityManager:54 - Changing modify acls to: acp18ca
+2019-03-05 18:08:28 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-05 18:08:28 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-05 18:08:28 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acp18ca); groups with view permissions: Set(); users  with modify permissions: Set(acp18ca); groups with modify permissions: Set()
+2019-03-05 18:08:30 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 44322.
+2019-03-05 18:08:30 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-05 18:08:30 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-05 18:08:30 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-05 18:08:30 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-05 18:08:30 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-dd978308-e997-4397-a2d1-93df16033bf6
+2019-03-05 18:08:30 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2019-03-05 18:08:30 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-05 18:08:30 INFO  log:192 - Logging initialized @19865ms
+2019-03-05 18:08:30 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-03-05 18:08:30 INFO  Server:419 - Started @20141ms
+2019-03-05 18:08:30 INFO  AbstractConnector:278 - Started ServerConnector@743ecef4{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-05 18:08:30 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@326c4aab{/jobs,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@33084414{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27213767{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@12bd1f05{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@63e4d1a2{/stages,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d5048b6{/stages/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6061c9a5{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1028ea13{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7eea3552{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@11e7a76b{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5ebf36e0{/storage,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@9103756{/storage/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@267fc383{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@a0ff4d8{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2da0cb4f{/environment,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2502f32a{/environment/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d395fd2{/executors,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@8e5dd99{/executors/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@23b48579{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@119db986{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@266da3a8{/static,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f7054b9{/,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61918e27{/api,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@583599de{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-05 18:08:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@70adbc72{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-05 18:08:31 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node113.shef.ac.uk:4040
+2019-03-05 18:08:31 INFO  SparkContext:54 - Added file file:/home/acp18ca/lab1/Code/Q2.py at file:/home/acp18ca/lab1/Code/Q2.py with timestamp 1551809311686
+2019-03-05 18:08:31 INFO  Utils:54 - Copying /home/acp18ca/lab1/Code/Q2.py to /tmp/spark-a06ddfac-5d50-48d6-822c-2826b1f60f07/userFiles-91dcac01-87a2-4202-a27e-c8cb624f5a67/Q2.py
+2019-03-05 18:08:32 INFO  Executor:54 - Starting executor ID driver on host localhost
+2019-03-05 18:08:32 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36468.
+2019-03-05 18:08:32 INFO  NettyBlockTransferService:54 - Server created on sharc-node113.shef.ac.uk:36468
+2019-03-05 18:08:32 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-05 18:08:32 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node113.shef.ac.uk, 36468, None)
+2019-03-05 18:08:32 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node113.shef.ac.uk:36468 with 366.3 MB RAM, BlockManagerId(driver, sharc-node113.shef.ac.uk, 36468, None)
+2019-03-05 18:08:32 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node113.shef.ac.uk, 36468, None)
+2019-03-05 18:08:32 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node113.shef.ac.uk, 36468, None)
+2019-03-05 18:08:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@22b3d685{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:33 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acp18ca/lab1/spark-warehouse/').
+2019-03-05 18:08:33 INFO  SharedState:54 - Warehouse path is 'file:/home/acp18ca/lab1/spark-warehouse/'.
+2019-03-05 18:08:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@422d9ef5{/SQL,null,AVAILABLE,@Spark}
+2019-03-05 18:08:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7187dec3{/SQL/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1a55d7da{/SQL/execution,null,AVAILABLE,@Spark}
+2019-03-05 18:08:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3e5bb3e1{/SQL/execution/json,null,AVAILABLE,@Spark}
+2019-03-05 18:08:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@367fae59{/static/sql,null,AVAILABLE,@Spark}
+2019-03-05 18:08:35 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2019-03-05 18:10:51 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-05 18:10:51 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-05 18:10:52 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-05 18:10:52 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+RMSE = 0.805685433825473 MAE = 0.6256626918546393
+RMSE = 0.8053100453859804 MAE = 0.6252050830861391
+RMSE = 0.8053077687074757 MAE = 0.6254455384867347
+RMSE = 0.8057382972001578 MAE = 0.6256891974607024
+RMSE = 0.8057796812365683 MAE = 0.6258824520806717
+model with defaults
+avg rmse is = 0.805564245271
+avg mae is = 0.625576992594
+std rmse is = 0.000210613961655
+std mae is = 0.000231877837552
+RMSE = 0.8157171881917467 MAE = 0.6333205865102426
+RMSE = 0.8149439486416656 MAE = 0.632701078210612
+RMSE = 0.8152192543838233 MAE = 0.6332235876485999
+RMSE = 0.8152857344948944 MAE = 0.633065783952687
+RMSE = 0.8153856162707379 MAE = 0.6331507368037473
+model with rank 5
+avg rmse is = 0.815310348397
+avg mae is = 0.633092354625
+std rmse is = 0.000250733569962
+std mae is = 0.000212849060042
++----------+-----+
+|prediction|count|
++----------+-----+
+|         7| 2230|
+|         2| 2176|
+|         4| 1834|
++----------+-----+
+
+top tags for model 1
++-----+-----------------+-----+-----------------+
+|tagId|   sum(relevance)|tagId|              tag|
++-----+-----------------+-----+-----------------+
+|  742|889.6977499999996|  742|         original|
+|  270|710.2285000000003|  270|        criterion|
+|  452|675.1349999999999|  452|  good soundtrack|
+|  936|669.0267499999997|  936|social commentary|
+| 1008|665.4902500000001| 1008|            talky|
++-----+-----------------+-----+-----------------+
+
++-----+------------------+-----+-----------+
+|tagId|    sum(relevance)|tagId|        tag|
++-----+------------------+-----+-----------+
+|  742| 629.1964999999996|  742|   original|
+|  646| 547.5807500000001|  646|     mentor|
+|  445|         507.50225|  445|       good|
+|  299| 459.5112499999999|  299|    destiny|
+|  188|458.89675000000017|  188|catastrophe|
++-----+------------------+-----+-----------+
+
++-----+------------------+-----+---------------+
+|tagId|    sum(relevance)|tagId|            tag|
++-----+------------------+-----+---------------+
+|  742| 663.4167499999996|  742|       original|
+|  646|         543.07675|  646|         mentor|
+|  468| 536.9170000000001|  468|   great ending|
+|  972|         519.13175|  972|   storytelling|
+|  452|509.61924999999985|  452|good soundtrack|
++-----+------------------+-----+---------------+
+
++----------+-----+
+|prediction|count|
++----------+-----+
+|         3| 2616|
+|        11| 2111|
+|         5| 1733|
++----------+-----+
+
+top tags for model 2
++-----+-----------------+-----+------------+
+|tagId|   sum(relevance)|tagId|         tag|
++-----+-----------------+-----+------------+
+|  742|         752.3175|  742|    original|
+|  646|620.1637499999997|  646|      mentor|
+|  445|580.1362499999997|  445|        good|
+|  468|571.3802499999999|  468|great ending|
+|  464|         559.4645|  464|       great|
++-----+-----------------+-----+------------+
+
++-----+-----------------+-----+-----------------+
+|tagId|   sum(relevance)|tagId|              tag|
++-----+-----------------+-----+-----------------+
+|  742|826.4612499999995|  742|         original|
+|  452|651.6454999999999|  452|  good soundtrack|
+|  972|650.6107499999998|  972|     storytelling|
+|  936|        605.52425|  936|social commentary|
+|  646|605.5017499999997|  646|           mentor|
++-----+-----------------+-----+-----------------+
+
++-----+------------------+-----+-----------+
+|tagId|    sum(relevance)|tagId|        tag|
++-----+------------------+-----+-----------+
+|  742| 631.7370000000001|  742|   original|
+|  646| 537.0902499999999|  646|     mentor|
+|  445|510.31575000000026|  445|       good|
+|  807|493.88824999999974|  807|predictable|
+|  188| 487.6589999999997|  188|catastrophe|
++-----+------------------+-----+-----------+
+
++----------+-----+
+|prediction|count|
++----------+-----+
+|        17| 2557|
+|         5| 2046|
+|        18| 1773|
++----------+-----+
+
+top tags for model 3
++-----+------------------+-----+------------+
+|tagId|    sum(relevance)|tagId|         tag|
++-----+------------------+-----+------------+
+|  742|         357.27425|  742|    original|
+|  646| 266.1812499999999|  646|      mentor|
+|  468|250.18375000000003|  468|great ending|
+|  302|244.21700000000007|  302|    dialogue|
+|  445|224.78600000000003|  445|        good|
++-----+------------------+-----+------------+
+
++-----+-----------------+-----+---------------+
+|tagId|   sum(relevance)|tagId|            tag|
++-----+-----------------+-----+---------------+
+|  742|         808.3665|  742|       original|
+|  452|630.0042499999998|  452|good soundtrack|
+|  972|          624.347|  972|   storytelling|
+|  646|610.5935000000001|  646|         mentor|
+|  468|588.4702500000002|  468|   great ending|
++-----+-----------------+-----+---------------+
+
++-----+-----------------+-----+--------------------+
+|tagId|   sum(relevance)|tagId|                 tag|
++-----+-----------------+-----+--------------------+
+|  742|677.4365000000001|  742|            original|
+|  270|547.9695000000002|  270|           criterion|
+|  747|546.9830000000004|  747|oscar (best actress)|
+|  750|546.7882500000002|  750|oscar (best direc...|
+| 1008|543.0702500000001| 1008|               talky|
++-----+-----------------+-----+--------------------+
+
++----------+-----+
+|prediction|count|
++----------+-----+
+|         5| 2620|
+|         7| 2231|
+|        19| 1639|
++----------+-----+
+
+top tags for model 4
++-----+------------------+-----+------------+
+|tagId|    sum(relevance)|tagId|         tag|
++-----+------------------+-----+------------+
+|  742| 599.4497499999997|  742|    original|
+|  646| 480.9137500000001|  646|      mentor|
+|  468| 436.6085000000001|  468|great ending|
+|  445| 420.7342499999999|  445|        good|
+|  302|411.22699999999986|  302|    dialogue|
++-----+------------------+-----+------------+
+
++-----+-----------------+-----+-----------------+
+|tagId|   sum(relevance)|tagId|              tag|
++-----+-----------------+-----+-----------------+
+|  742|          916.292|  742|         original|
+|  972|729.7787500000002|  972|     storytelling|
+|  452|729.1504999999992|  452|  good soundtrack|
+|  936|689.4630000000003|  936|social commentary|
+|  646|        681.62375|  646|           mentor|
++-----+-----------------+-----+-----------------+
+
++-----+------------------+-----+------------+
+|tagId|    sum(relevance)|tagId|         tag|
++-----+------------------+-----+------------+
+|  270| 587.3784999999998|  270|   criterion|
+|  742|         540.60775|  742|    original|
+| 1008| 514.2069999999998| 1008|       talky|
+|  536| 476.7792500000001|  536|imdb top 250|
+|  351|451.62749999999977|  351|   enigmatic|
++-----+------------------+-----+------------+
+
++----------+-----+
+|prediction|count|
++----------+-----+
+|        14| 2609|
+|         1| 2131|
+|        17| 1693|
++----------+-----+
+
+top tags for model 5
++-----+------------------+-----+------------+
+|tagId|    sum(relevance)|tagId|         tag|
++-----+------------------+-----+------------+
+|  742| 377.3625000000002|  742|    original|
+|  646|278.82800000000003|  646|      mentor|
+|  468|         261.53475|  468|great ending|
+|  302|256.25025000000005|  302|    dialogue|
+|  445|235.12249999999997|  445|        good|
++-----+------------------+-----+------------+
+
++-----+-----------------+-----+------------+
+|tagId|   sum(relevance)|tagId|         tag|
++-----+-----------------+-----+------------+
+|  742|783.6962500000001|  742|    original|
+|  646|        654.94025|  646|      mentor|
+|  323|619.6125000000004|  323|       drama|
+|  468|607.1440000000009|  468|great ending|
+|  972|602.6554999999997|  972|storytelling|
++-----+-----------------+-----+------------+
+
++-----+------------------+-----+---------------+
+|tagId|    sum(relevance)|tagId|            tag|
++-----+------------------+-----+---------------+
+|  742| 450.7602499999998|  742|       original|
+|  468| 328.1420000000001|  468|   great ending|
+|  302|320.56275000000005|  302|       dialogue|
+|  452|318.52649999999994|  452|good soundtrack|
+|  646|316.12375000000003|  646|         mentor|
++-----+------------------+-----+---------------+
+
